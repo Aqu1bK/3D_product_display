@@ -1,0 +1,67 @@
+:root{
+  --primary:#ff9f00;
+  --secondary:#131921;
+}
+
+body{
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Header + Footer shared style */
+.navbar-dark,
+.footer{
+  background: var(--secondary);
+}
+
+.price{
+  font-size:2rem;
+  font-weight:700;
+  color:var(--primary);
+}
+
+.gallery img{
+  width:100%;
+  border-radius:.5rem;
+  cursor:pointer;
+  transition:transform .3s;
+}
+.gallery img:hover{
+  transform:scale(1.05);
+}
+
+.viewer-box{
+  border:1px solid #ddd;
+  border-radius:.5rem;
+  height:400px;
+  overflow:hidden;
+}
+
+.spec-list li{
+  display:flex;
+  justify-content:space-between;
+  padding:.4rem 0;
+}
+
+.btn-cart{
+  background:var(--primary);
+  border:none;
+  color:#fff;
+  font-weight:600;
+}
+.btn-cart:hover{
+  background:#e68a00;
+  color:#fff;
+}
+
+.btn-wish{
+  border:1px solid var(--primary);
+  color:var(--primary);
+}
+.btn-wish:hover{
+  background:var(--primary);
+  color:#fff;
+}
+
+.fw-bold{
+    color: #ddd;
+}
